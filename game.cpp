@@ -197,14 +197,6 @@ void drawCar() {
 	   }
        }
        
-      // if(xI >= 155 && xI <= 230 )   //avoiding collision with upper tree line
-	//{
-	  // if(yI <= 420)
-	   //{
-	   //yI = yI + 10;
-	   //score = score - 4;
-	   //}
-       //}
        
        if(xI >= 355 && xI <= 470 )   //avoiding collision with lower tree line
 	{
