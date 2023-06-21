@@ -30,7 +30,7 @@ void SetCanvasSize(int width, int height) {
 }
 
 int xI = 20, yI = 650;
-//int 
+
 
 void drawCar() {
 
