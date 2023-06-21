@@ -42,13 +42,7 @@ void drawCar() {
 	DrawRectangle((xI+4),(yI+16),5,16,colors[BLACK]); //left windscreen of taxi
 	DrawRectangle((xI+15),(yI+16),5,16,colors[BLACK]); //right windscreen of taxi
 	DrawRectangle((xI+4),(yI+28),16,5,colors[BLACK]); //rear windscreen of taxi
-	//DrawCircle((xI),(yI),2,colors[WHITE]);    //tires
-	//DrawCircle((xI+25),(yI),2,colors[WHITE]);     //tires
-	//DrawCircle((xI),(yI+35),2,colors[WHITE]);    //tires
-	//DrawCircle((xI+25),(yI+35),2,colors[WHITE]);     //tires
-	//DrawCircle(float 18, float 670, float 5, float*BLACK);
-	//DrawCircle(float 22, float 670, float 5, float*BLACK);
-	//void DrawCircle(float sx, float sy, float radius, float*color);
+	
 	
 	if(xI >= 10 && xI <= 162 )    //avoiding collision with building 1
 	{
