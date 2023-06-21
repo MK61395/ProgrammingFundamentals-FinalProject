@@ -20,7 +20,7 @@ using namespace std;
 
 // seed the random numbers generator by current time (see the documentation of srand for further help)...
 
-                                                                                                                                                                                  int b=0,score = 0;
+                                                                                                                                                                                 int b=0,score = 0;
 void SetCanvasSize(int width, int height) {
 	glMatrixMode (GL_PROJECTION);
 	glLoadIdentity();
