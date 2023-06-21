@@ -31,7 +31,6 @@ void SetCanvasSize(int width, int height) {
 
 int xI = 20, yI = 650;
 
-
 void drawCar() {
 
        // DrawRectangle(300,750,30,10,colors[NAVY]);
