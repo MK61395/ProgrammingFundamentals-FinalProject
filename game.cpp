@@ -804,9 +804,6 @@ int main(int argc, char*argv[])
 	glutMotionFunc(MousePressedAndMoved); // Mouse
 	
 	
-	
-	// now handle the control to library and it will call our registered functions when
-	// it deems necessary...
 	glutMainLoop();
 	return 1;
 }
