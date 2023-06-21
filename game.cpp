@@ -671,6 +671,7 @@ void PrintableKeys(unsigned char key, int x, int y) {
  * speed of different moving objects by varying the constant FPS.
  *
  * */
+
 void Timer(int m) {
 	moveCar();	
 	// once again we tell the library to call our Timer function after next 1000/FPS
